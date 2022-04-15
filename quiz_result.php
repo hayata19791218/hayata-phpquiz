@@ -52,7 +52,7 @@
         $_SESSION["name"] = $yourName;
       }
     ?>
-    <p class="name"><?php echo $_SESSION["name"] ?>さん、解答です。</p>
+    <!-- <p class="name"><?php echo $_SESSION["name"] ?>さん、解答です。</p> -->
     <div class="main">
       <div class="question-title">
         第<?php echo $times+1 ?>問
@@ -67,9 +67,7 @@
         <?php if($answer[$times] == "left"):?>
             <div class="question-box-left">
                 <div class="c-mark">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="#f31414" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                    </svg>
+                    <img src="img/circle.png">
                 </div>
                 <div class="question-number1">①</div>
                 <div class="question-text">
@@ -98,9 +96,7 @@
         <?php if($answer[$times] == "center"):?>
             <div class="question-box-center">
                 <div class="c-mark">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="#f31414" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                    </svg>
+                    <img src="img/circle.png">
                 </div>
                 <div class="question-number2">②</div>
                 <div class="question-text">
@@ -129,9 +125,7 @@
         <?php if($answer[$times] == "right"):?>
             <div class="question-box-right">
                 <div class="c-mark">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="#f31414" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                    </svg>
+                    <img src="img/circle.png">
                 </div>
                 <div class="question-number3">③</div>
                 <div class="question-text">
@@ -172,10 +166,5 @@
         <?php endif?>
       </div>
     </div>
-    <?php
-session_start();
-$hoge=$_SESSION['hoge'];
-?>
   </body>
-
 </html>

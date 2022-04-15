@@ -28,7 +28,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ja" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>3択クイズ</title>
@@ -93,11 +93,5 @@
         </form>
       </div>
     </div>
-
-    
-
- 
- 
   </body>
-
 </html>

@@ -76,14 +76,14 @@ body {
     overflow: hidden;
   }
   .question-image img{
-  width: 150px;
-  height: 120px;
+    width: 150px;
+    height: 120px;
     overflow: hidden;
   }
-  .c-mark svg{
+  .c-mark img{
     position: absolute;
-   margin: -20px 0 0 -20px;
-   
+    margin: -20px 0 0 -20px;
+    width: 200px;
   }
    
   .question-box-left{
