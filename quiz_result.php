@@ -34,6 +34,7 @@
 ?>
 <?php if($response == $answer[$times]):?>
     <div class="true">正解</div>
+    <?php $num_correct ++?> 
 <?php else:?>
     <div class="false">不正解</div>
 <?php endif;?>
